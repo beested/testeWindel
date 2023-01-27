@@ -1,6 +1,10 @@
 # testeWindel
 Teste para Programação Web
 -
+Faltaram algumas coisas no projeto final, mas fiquei feliz com meu desempenho individual, com esse teste adquiri muito conhecimento, e já sei que não sou o mesmo desde quando comecei o projeto.
+-
+
+
 A função "saveProduto" é chamada quando o usuário clica no botão "Salvar" e ela verifica se os campos do formulário são válidos usando a função "isValidFields". Se os campos são válidos, ela cria um objeto "produto" com os valores dos campos do formulário e, dependendo do valor do índice, chama a função "createProduto" ou "updateProduto" para salvar ou atualizar o produto.
 
 A função "createRow" é usada para criar as linhas da tabela que mostra os produtos. Ela é chamada quando os produtos são lidos ou atualizados, e ela cria um elemento "tr" e adiciona os valores do produto aos elementos "td" dentro dele.
