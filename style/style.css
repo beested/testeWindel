@@ -1,0 +1,231 @@
+main {
+  margin: 13px 92px;
+  display: flex;
+  color: var(--deep-grey);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+:root {
+  --white: #fff;
+  --whitesmoke: #f9f9f9;
+  --light-grey: #a0aec0;
+  --grey: ##e2e8f0;
+  --medium-grey: #a7a7a7;
+  --deep-grey: #343434;
+  --green: #38a169;
+  --red: #cf3c3f;
+  --blue: #1b77f3;
+  --shadow-color: #ccc;
+}
+
+#new__register {
+  border-bottom: 2px solid var(--light-grey);
+  margin: 10px 92px;
+  width: 1224px;
+  color: var(--deep-grey);
+}
+.register {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border: 2px solid var(--light-grey);
+  border-radius: 8px;
+  padding: 32px;
+  width: 1224px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+.input {
+  width: 363px;
+  height: 35px;
+  border: 4px solid var(--medium-grey);
+  grid-column: span 2;
+  background-color: var(--light-grey);
+  border-radius: 8px;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  grid-column: 3;
+  margin-left: 155px;
+  margin-top: 20px;
+  grid-gap: 10px;
+}
+
+.button__cadastrar {
+  background-color: var(--green);
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 34px;
+  color: var(--whitesmoke);
+}
+
+.button__delete {
+  background-color: var(--red);
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 34px;
+  color: var(--whitesmoke);
+}
+
+.button__edit {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 34px;
+  color: var(--whitesmoke);
+}
+
+.button__delete:hover {
+  color: #000;
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+
+.button__cadastrar:hover {
+  color: #000;
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+.button__edit:hover {
+  color: #000;
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+.consulta {
+  display: flex;
+  border: 2px solid var(--light-grey);
+  border-radius: 8px;
+  padding: 2px;
+  width: 1224px;
+  margin: 0px 92px;
+}
+
+.consulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.consulta:hover {
+  color: #000;
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+.upload__button {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  color: var(--deep-grey);
+  width: 363px;
+  height: 35px;
+  border: 4px solid var(--medium-grey);
+  background-color: var(--light-grey);
+  border-radius: 8px;
+}
+.upload__button input[type='file'] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload__img {
+  display: inline-block;
+  border: 2px solid var(--light-grey);
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  vertical-align: middle;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.upload__img:hover {
+  color: #000;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.records {
+  width: 100%;
+  user-select: none;
+  text-align: left;
+  border-spacing: 0px;
+}
+.records thead {
+  background-color: var(--shadow-color);
+}
+.records th {
+  height: 50px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  border-bottom: 2.5px solid var(--shadow-color);
+  margin-bottom: 10px;
+}
+.records td {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.records th:last-child,
+.records td:last-child {
+  padding: 0;
+  min-width: 140px;
+  text-align: center;
+}
+
+.records tr:hover {
+  background-color: var(--shadow-color);
+  border-spacing: 0;
+}
+
+#esgotado {
+  color: var(--red);
+}
+
+.image__prod {
+  border: 2px solid var(--light-grey);
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  vertical-align: middle;
+  margin-top: 20px;
+  transition: 0.5s;
+}
