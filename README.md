@@ -2,6 +2,7 @@
 Teste para Programação Web
 -
 Faltaram algumas coisas no projeto final, mas fiquei feliz com meu desempenho individual, com esse teste adquiri muito conhecimento, e já sei que não sou o mesmo desde quando comecei o projeto.
+Consegui fazer o GET da API mas acabei não conseguindo fazer o POST da API, então voltei para o localStorage.
 -
 
 
